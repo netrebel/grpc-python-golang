@@ -25,9 +25,9 @@ Terminal 1 (python server):
 ```
 brew install python
 pip3 install virtualenv
-virtualenv -p python3 venv
+virtualenv -p python3 .venv
 pip install -r requirements.txt
-source venv/bin/activate
+source .venv/bin/activate
 python python/server.py
 ```
 
@@ -45,4 +45,4 @@ go run client.go
 * Enable Go modules (vgo) integration 
 
 ## VSCode
-* Import `golang` directory as a new folde to workspace in order for go-modules to work.
+* Import `golang` directory as a new folder to workspace in order for go-modules to work.
